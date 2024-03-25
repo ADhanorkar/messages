@@ -32,6 +32,7 @@ function App() {
         alignItems: "center",
       }}
     >
+      <h1>Message Board</h1>
       <AddMessage addMessage={addMessage} />
       <MessageList messages={messages} deleteMessage={deleteMessage} />
     </Box>
